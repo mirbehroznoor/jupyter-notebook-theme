@@ -5,10 +5,12 @@
 [[https://raw.githubusercontent.com/mirbehroznoor/jupyter-notebook-theme/main/jupyter-2.png]]
 [[https://raw.githubusercontent.com/mirbehroznoor/jupyter-notebook-theme/main/jupyter-3.png]]
 
-*** Jupyter Notebook Configuration
+
+** Jupyter Notebook Configuration
+*** Jupyter Notebook Folder
 In GNU/Linux, it is =$HOME/.jupyter/custom/=
 **** From Terminal:
-*Note:* if you are using virtual environment, activate your env (Conda or Pyenv) first then run this command:
+*Note:* if you are using virtual environment, first activate your env (Conda or Pyenv) then run this command:
 #+begin_src shell
   jupyter --config-dir
 #+end_src
@@ -36,3 +38,7 @@ highlight.css
 
 *Refresh or Restart Jupyter-Notebook and Enjoy your new Theme*
 *Keep Experimenting, there is no *One Size Fits All* theme :)
+
+** Acknowledgment
+[[https://github.com/neilpanchal/spinzero-jupyter-theme][Github: Spinzero Jupyter Theme]]
+[[https://github.com/mmas/jupyter-github-theme][Github: Jupyter Github Theme]]
