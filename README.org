@@ -1,6 +1,9 @@
 #+title: Jupyter Notebook Theme
 #+author: Mir Behroz Noor
 
+[[https://raw.githubusercontent.com/mirbehroznoor/jupyter-notebook-theme/main/jupyter-1.png]]
+[[https://raw.githubusercontent.com/mirbehroznoor/jupyter-notebook-theme/main/jupyter-2.png]]
+[[https://raw.githubusercontent.com/mirbehroznoor/jupyter-notebook-theme/main/jupyter-3.png]]
 
 *** Jupyter Notebook Configuration
 In GNU/Linux, it is =$HOME/.jupyter/custom/=
