@@ -40,5 +40,5 @@ highlight.css
 *Keep Experimenting, there is no *One Size Fits All* theme :)
 
 ** Acknowledgment
-[[https://github.com/neilpanchal/spinzero-jupyter-theme][Github: Spinzero Jupyter Theme]]
-[[https://github.com/mmas/jupyter-github-theme][Github: Jupyter Github Theme]]
+- [[https://github.com/neilpanchal/spinzero-jupyter-theme][Github: Spinzero Jupyter Theme]]
+- [[https://github.com/mmas/jupyter-github-theme][Github: Jupyter Github Theme]]
