@@ -1,0 +1,89 @@
+
+@import "highlight.css"
+
+div.output_subarea img {
+    margin: 0 auto;
+    display: block;
+    min-width: 25%;
+    min-height: 25%;
+}
+
+div.output_subarea {
+    font: 10px;
+    font-weight: normal;
+    color: #828282;
+}
+
+#notebook { padding:5px 0px 10px 0px !important; } /* eliminate top gray */
+.container { width:99% !important; } /* eliminate side gray */
+.output_result { max-width:98% !important; }
+.prompt { display:none !important; }
+/* .end_space { height:75vh !important; } /\* eliminate bottom gray *\/ */
+
+div.input_area {
+    border-radius: 0px;
+    border: none; /* cell borders */
+    padding: 6px 6px;
+}
+
+div.cell,
+.edit_mode div.cell,
+div.cell.selected,
+.edit_mode div.cell.selected,
+div.cell.jupyter-soft-selected,
+div.cell.selected.jupyter-soft-selected {
+  border: none;
+  border-radius: 0;
+  margin: 0px;
+  padding: 15px;
+  padding-left: 10px;
+  background: none;
+}
+
+div.cell.selected,
+div.cell.jupyter-soft-selected,
+div.cell.selected.jupyter-soft-selected {
+    box-shadow: 0 0 5px #333;
+    background: #fff;
+}
+
+.edit_mode div.cell.selected div.input:before {
+    color: #D14187;
+}
+
+div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
+    position: absolute;
+    left: -1px;
+    border: 10px;
+    width: 3px;
+    height: calc(100% + 2px);
+    content: '';
+    background: #333;
+}
+
+/* Markdown Cells */
+
+/* .text_cell */
+/* .CodeMirror pre { */
+    /* font-family: "Ubuntu"; */
+    /* font-size: 12pt; */
+/* } */
+
+/* input cell font */
+
+/* div.code_cell */
+/* .CodeMirror { */
+  /* font-size: 15px; */
+  /* font-family: "Noto Sans Mono"; */
+/* } */
+
+/* div.code_cell, */
+/* div.output_text { */
+  /* margin: 2px auto; */
+  /* font-size: 16px; */
+/* font-family: "Ubuntu"; */
+    /* } */
+
+.dataframe {
+    font-size: 12px !important;
+}

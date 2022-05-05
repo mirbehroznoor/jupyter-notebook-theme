@@ -1,0 +1,35 @@
+#+title: Jupyter Notebook Theme
+#+author: Mir Behroz Noor
+
+
+*** Jupyter Notebook Configuration
+In GNU/Linux, it is =$HOME/.jupyter/custom/=
+**** From Terminal:
+*Note:* if you are using virtual environment, activate your env (Conda or Pyenv) first then run this command:
+#+begin_src shell
+  jupyter --config-dir
+#+end_src
+**** Find the =Custom= folder
+*Note:* Any file or folder name starting with "." indicates that it is a hidden file or folder.
+
+In =.jupyter= folder, if there is no folder, create one manually or through terminal.
+#+begin_src shell
+cd ~/.jupyter/
+mkdir -p custom
+#+end_src
+
+**** In =Custom= folder
+#+begin_src shell
+  git clone https://github.com/mirbehroznoor/jupyter-notebook-theme
+#+end_src
+*<OR>*
+
+**** Manually Copy files
+Copy the two .css files into =.jupyter/custom/=
+#+begin_src
+custom.css
+highlight.css
+#+end_src
+
+*Refresh or Restart Jupyter-Notebook and Enjoy your new Theme*
+*Keep Experimenting, there is no *One Size Fits All* theme :)
