@@ -37,7 +37,8 @@ highlight.css
 #+end_src
 
 *Refresh or Restart Jupyter-Notebook and Enjoy your new Theme*
-*Keep Experimenting, there is no *One Size Fits All* theme :)
+
+_Keep Experimenting_, there is no *One Size Fits All* theme :)
 
 ** Acknowledgment
 - [[https://github.com/neilpanchal/spinzero-jupyter-theme][Github: Spinzero Jupyter Theme]]
